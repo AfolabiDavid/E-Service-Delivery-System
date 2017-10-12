@@ -1,0 +1,68 @@
+@CHARSET "UTF-8";
+
+
+
+
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.rotating {
+  -webkit-animation: rotating 1.5s linear infinite;
+  -moz-animation: rotating 1.5s linear infinite;
+  -ms-animation: rotating 1.5s linear infinite;
+  -o-animation: rotating 1.5s linear infinite;
+  animation: rotating 1.5s linear infinite;
+}
+
+div.error { display: block; color: #f00; font-weight: bold; font-size: 1.2em; margin: 0 0 35px 0;text-align: center;}
+  span.error { display: block; color: #f00; font-style: italic; }
+  .success { color: #00a82b; font-weight: bold; font-size: 1.2em;margin: 0 0 35px 0;text-align: center; }
+  form label { display: block; font-weight: bold; }
+  fieldset { width: 90%; }
+  legend { font-size: 24px; }
+  
+  
+#captcha_code {
+	width: 100%;
+	min-height: 50px;
+	border: 1px solid #1f1a17;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+#captcha_container_1 label {
+	display: none;
+}
+#captcha_image {
+	margin: 0px;
+	width: 85%;
+	height: a;
+}

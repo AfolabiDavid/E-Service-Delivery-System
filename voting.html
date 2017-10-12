@@ -1,0 +1,291 @@
+﻿<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<title>Federal Republic of Nigeria</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.js"></script>
+<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<header class="container-fluid headbg">
+	<div class="container">
+		<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 head-logo">
+			<img src="assets/img/frederal-republice.png" alt="frederal-republice">
+		</div>
+		<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 head-navication">
+			<nav class="navbar navbar-default">
+			        <div class="navbar-header">
+			            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+			                <span class="sr-only">Toggle navigation</span>
+			                <span class="icon-bar"></span>
+			                <span class="icon-bar"></span>
+			                <span class="icon-bar"></span>
+			            </button>
+			        </div>
+			           <div id="navbar" class="navbar-collapse collapse">
+			                <ul class="nav navbar-nav navbar-right">
+			                  <li class="active"><a href="#">Home</a></li>
+			                  <li><a href="#">About Nigeria</a> </li>
+			                  <li><a href="#">Ministries</a></li>
+			                  <li><a href="#">Arms Of Gov</a></li>
+			                  <li><a href="#">Contact Gov</a></li>
+			                </ul>
+			           </div>
+			    </nav>
+		</div>
+	</div>
+</header>
+
+
+
+
+	<section class="container-fluid headerbg2">
+			<div class="container">
+				<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 header-left">
+					<h1>Home  Voting</h1>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 header-right">
+					<form method="post">
+						<div class="inputbg">
+						<input type="text" class="textcontent" placeholder="search GOV.NG">
+						</div>
+						<div class="searchbg"><input type="submit" value="Search" class="seachsubmit"></div>
+					</form>
+				</div>
+			</div>
+	</section>
+
+
+
+	<section class="container-fluid space">
+		<div class="container">
+			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 height">
+				<ul class="sidebar" style="border:none;">
+					<li class="list" onclick="openCity('first', this, '#c2e0c9')">Investments &amp; Investors</li>
+					<li class="list" onclick="openCity('sec', this, '#c2e0c9')">Driving, Transportation &amp; Licenses</li>
+					<li class="list" onclick="openCity('thi', this, '#c2e0c9')">Health Insurance &amp; Health Services</li>
+					<li class="list" onclick="openCity('for', this, '#c2e0c9')">Housing &amp; Lands Services</li>
+					<li class="list" onclick="openCity('fif', this, '#c2e0c9')">Births, Marriages, &amp; Deaths</li>
+					<li class="list" onclick="openCity('six', this, '#c2e0c9')">Passport, Visas, &amp; Immigration</li>
+					<li class="list" onclick="openCity('sev', this, '#c2e0c9')">Citizenship, National Identity, &amp; Voting</li>
+					<li class="list" onclick="openCity('eig', this, '#c2e0c9')">Jobs, Employment, &amp; Pensions</li>
+					<li class="list" onclick="openCity('nin', this, '#c2e0c9')">Agric &amp; Food Banks</li>
+					<li class="list" onclick="openCity('ten', this, '#c2e0c9')">Law &amp; Justice System</li>
+					<li class="list" onclick="openCity('ele', this, '#c2e0c9')">Money &amp; Taxes</li>
+					<li class="list" onclick="openCity('twl', this, '#c2e0c9')">Education &amp; Learning</li>
+					<li class="list" onclick="openCity('thir', this, '#c2e0c9')">Special Care for Disabled</li>
+				</ul>	
+			</div>
+
+			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 height">
+				<ul class="sidebar" style="border:none;">
+					<li class="list" onclick="openCity('thrt', this, '#c2e0c9')">Citizenship Eligibility and Rights <br><i style="font-size: 12px;">Becoming a Citizen, Eligibility, Rights,</i></li>
+					<li class="list" onclick="openCity('four', this, '#c2e0c9')">National Identity Number <br><i style="font-size: 12px;">Registering for NIN Card, Replacing NIN Card, Securing NIN Card,</i></li>
+					<li class="list" onclick="openCity('fift', this, '#c2e0c9')" id="defaultOpen">Voting  <br><i style="font-size: 12px;">Registering to Vote, Elections, Referendum</i></li>
+					<li class="list" onclick="openCity('sixt', this, '#c2e0c9')">Living in Nigeria  <br><i style="font-size: 12px;">Life in Nigeria</i></li>
+				</ul>	
+			</div>
+
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 right">
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-2 pre"></div>
+
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 space">
+				<ul class="sidebar2" id="first">
+					<li>Register To Vote</li>
+					<li>Casting Your Votes</li>
+					<li>Types of Elections</li>
+					<li>Referendum</li>
+				</ul>
+
+				<ul class="sidebar2" id="sec">
+					<li>Citizenship Eligibity and Rights</li>
+					<li>National Identify Number</li>
+					<li>Voting</li>
+					<li>Living in Nigeria</li>
+				</ul>
+
+				<ul class="sidebar2" id="thi">
+					<li>Citizenship Eligibity and Rights</li>
+					<li>National Identify Number</li>
+					<li>Voting</li>
+					<li>Living in Nigeria</li>
+				</ul>
+
+				<ul class="sidebar2" id="for">
+					<li>Citizenship Eligibity and Rights</li>
+					<li>National Identify Number</li>
+					<li>Voting</li>
+					<li>Living in Nigeria</li>
+				</ul>
+
+				<ul class="sidebar2" id="fif">
+					<li>Citizenship Eligibity and Rights</li>
+					<li>National Identify Number</li>
+					<li>Voting</li>
+					<li>Living in Nigeria</li>
+				</ul>
+
+				<ul class="sidebar2" id="six">
+					<li>Citizenship Eligibity and Rights</li>
+					<li>National Identify Number</li>
+					<li>Voting</li>
+					<li>Living in Nigeria</li>
+				</ul>
+
+				<ul class="sidebar2" id="sev">
+					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-2 pre">Voting</div>
+					<li> </li>
+					<li>Citizenship Eligibity and Rights</li>
+					<li>National Identify Number</li>
+					<li>Voting</li>
+					<li>Living in Nigeria</li>
+				</ul>
+
+				<ul class="sidebar2" id="eig">
+					<li>Citizenship Eligibity and Rights</li>
+					<li>National Identify Number</li>
+					<li>Voting</li>
+					<li>Living in Nigeria</li>
+				</ul>
+
+				<ul class="sidebar2" id="nin">
+					<li>Citizenship Eligibity and Rights</li>
+					<li>National Identify Number</li>
+					<li>Voting</li>
+					<li>Living in Nigeria</li>
+				</ul>
+
+				<ul class="sidebar2" id="ten">
+					<li>Citizenship Eligibity and Rights</li>
+					<li>National Identify Number</li>
+					<li>Voting</li>
+					<li>Living in Nigeria</li>
+				</ul>
+
+				<ul class="sidebar2" id="ele">
+					<li>Citizenship Eligibity and Rights</li>
+					<li>National Identify Number</li>
+					<li>Voting</li>
+					<li>Living in Nigeria</li>
+				</ul>
+
+				<ul class="sidebar2" id="twl">
+					<li>Citizenship Eligibity and Rights</li>
+					<li>National Identify Number</li>
+					<li>Voting</li>
+					<li>Living in Nigeria</li>
+				</ul>
+
+
+				<ul class="sidebar2" id="thrt">
+					<li>Citizenship Eligibity and Rights</li>
+					<li>National Identify Number</li>
+					<li>Voting</li>
+					<li>Living in Nigeria</li>
+				</ul>
+
+
+				<ul class="sidebar2" id="four">
+					<li>Citizenship Eligibity and Rights</li>
+					<li>National Identify Number</li>
+					<li>Voting</li>
+					<li>Living in Nigeria</li>
+				</ul>
+
+
+				<ul class="sidebar2" id="fift">
+					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-2 pre">Voting</div>
+					<li> </li>
+					<li>Citizenship Eligibity and Rights</li>
+					<li>National Identify Number</li>
+					<li>Voting</li>
+					<li>Living in Nigeria</li>
+				</ul>
+
+
+				<ul class="sidebar2" id="sixt">
+					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-2 pre">Life</div>
+					<li> </li>
+					<li>Living in Nigeria</li>
+					<li>Your Responsibilities as a Resident</li>
+				</ul>
+
+			</div>
+			</div>
+
+
+		</div>
+	</section>
+
+
+
+	<script>
+function openCity(cityName,elmnt,color) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("sidebar2");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("list");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+    }
+    document.getElementById(cityName).style.display = "block";
+
+    elmnt.style.backgroundColor = color;
+
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+
+
+
+<footer class="container-fluid footerbg">
+	<div class="container">
+		<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 footercontent">
+				<ul class="footer-nav">
+					<li><a href="#">Polices</a></li>
+					<li><a href="#">Terms &amp; Conditions</a></li>
+					<li><a href="#">Cookies</a></li>
+					<li><a href="#">Help</a></li>
+					<li><a href="#">Contact GOV</a></li>
+				</ul>
+			</div>
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 footercontent">
+					<p>Gov System Team</p>
+					<p>NITDA</p>
+					<p>Ministry Of Communications</p>
+					<div class="copyrie">
+						<p>&copy; Afolabi D.A</p>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 footersocialcontent">
+					<p>Ministry of Information</p>
+					<p>NITDA</p>
+					<p>Ministry Of Communications</p>
+					<ul class="footer-social-icon">
+						<li><a href="https://www.facebook.com/"><img src="assets/img/facebook.png"></a></li>
+						<li><a href="https://www.twitter.com/"><img src="assets/img/tiwitter.png"></a></li>
+						<li><a href="https://www.plus.google.com/"><img src="assets/img/google+.png"></a></li>
+						<li><a href="https://www.linkedin.com/"><img src="assets/img/in.png"></a></li>
+						<li><a href="https://www.youtube.com/"><img src="assets/img/youtube.png"></a></li>
+						<li><a href="https://www.instagram.com/"><img src="assets/img/instagram.png"></a></li>
+					</ul>
+			</div>
+		</div>
+</footer>
+
+
+
+
+
+</body>
+</html>
